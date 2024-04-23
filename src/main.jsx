@@ -12,7 +12,7 @@ import './App.css'
 import About from './About'
 import App from './App'
 import Sprint3 from './Sprint3'
-import contactCard from './contactCard'
+import Card from './Card'
 import ErrorPage from './ErrorPage'
 
 const site = import.meta.env.BASE_URL
@@ -32,8 +32,8 @@ const router = createBrowserRouter([
     element: <Sprint3 />
   },
   {
-    path: '/contactCard',
-    element: <contactCard />
+    path: '/Card',
+    element: <Card />
   }
 ], {
   basename: site
