@@ -5,7 +5,7 @@ function Sprint3() {
     <div className="p-5">
       <Link to='/'>{'<- Back'}</Link>
       <div></div>
-      <Link to='/contactCard'>{'Contact Card ->'}</Link>
+      <Link to='/Card'>{'Contact Card ->'}</Link>
       <h1>Sprint 3</h1>
       <div>
       <article>
