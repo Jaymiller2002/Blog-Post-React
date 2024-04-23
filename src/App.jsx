@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
+import './App.css'
 const Title = () => {
   return (
     <h1>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
+import './App.css'
 function Sprint3() {
   return (
     <div className="p-5" style={{backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)"}}>
