@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Sprint2() {
+function About() {
   return (
     <div className="p-5">
       <Link to='/'>{'<- Back'}</Link>
@@ -10,4 +10,4 @@ function Sprint2() {
 }
 
 
-export default Sprint2
+export default About

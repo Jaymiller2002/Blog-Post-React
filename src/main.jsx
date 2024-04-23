@@ -9,8 +9,8 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-import Sprint2 from './Sprint2'
-import Sprint1 from './Sprint1'
+import About from './About'
+import App from './App'
 import ErrorPage from './ErrorPage'
 
 const site = import.meta.env.BASE_URL
@@ -18,12 +18,12 @@ const site = import.meta.env.BASE_URL
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Sprint1 />,
+    element: <App />,
     errorElement: <ErrorPage />
   },
   {
-    path: '/Sprint2',
-    element: <Sprint2 />
+    path: '/About',
+    element: <About />
   },
 ], {
   basename: site
