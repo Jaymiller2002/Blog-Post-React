@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import { Container } from "react-bootstrap"
 function About() {
   return (
     <div className="p-5">
@@ -8,6 +8,7 @@ function About() {
       <Link to='/Sprint3'>{'Sprint 3 ->'}</Link>
       <h1>Sprint 2</h1>
       <div>
+      <Container>
       <h1 class="display-4">Jay's Blog:</h1>
 
         <h2>Was your first week what you expected? Why? Why not?</h2>
@@ -42,6 +43,7 @@ function About() {
 
         <h2>What methods do you use to help yourself get unstuck?</h2>
         <p>First, I take a breath and remember this is all new and then I ask ChatGPT then take what ChatGPT gives me and look it up online. I like to see if I can find an MDN or Stack Overflow document.</p>
+        </Container>
       </div>
     </div>
   )

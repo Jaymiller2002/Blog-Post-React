@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import { Container } from "react-bootstrap"
 
 function Card() {
   return (
@@ -7,7 +7,8 @@ function Card() {
       <Link to='/'>{'<- Back'}</Link>
       <h1>Contact Card</h1>
       <div>
-      <div class="card">
+      <Container>
+      <div>
         <div class="photo">
             <img class="rounded-circle" src="./img/blogpic.jpg"/>
         </div>
@@ -26,6 +27,7 @@ function Card() {
             <Link to="https://www.google.com/"><i className="fa-brands fa-square-google-plus"></i></Link>
         </div>
         </div>
+        </Container>
       </div>
     </div>
   )

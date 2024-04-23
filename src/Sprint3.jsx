@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import { Container } from "react-bootstrap"
 function Sprint3() {
   return (
     <div className="p-5">
@@ -8,6 +8,7 @@ function Sprint3() {
       <Link to='/Card'>{'Contact Card ->'}</Link>
       <h1>Sprint 3</h1>
       <div>
+      <Container>
       <article>
         <h1>The Power of Pseudocoding: Why Every Developer Should Master It</h1>
 
@@ -37,6 +38,7 @@ function Sprint3() {
 
         <p>In conclusion, pseudocoding is far more than just a preliminary step in the development process—it's a fundamental skill that empowers developers to tackle challenges with clarity, efficiency, and creativity. By mastering pseudocoding, developers can communicate their ideas effectively, promote algorithmic thinking, iterate rapidly, and foster innovation. Whether you're a seasoned developer or just starting your journey, embracing pseudocoding can unlock new possibilities and elevate your skills to new heights in the dynamic world of software development.</p>
        </article>
+       </Container>
       </div>
     </div>
   )
