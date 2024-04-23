@@ -2,12 +2,12 @@ import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
 function Sprint3() {
   return (
-    <div className="p-5">
-      <Link to='/'>{'<- Back'}</Link>
+    <div className="p-5" style={{backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)"}}>
+      <Link className="text-light" to='/'>{'<- Back'}</Link>
       <div></div>
-      <Link to='/Card'>{'Contact Card ->'}</Link>
+      <Link className="text-light" to='/Card'>{'Contact Card ->'}</Link>
       <h1>Sprint 3</h1>
-      <div style={{fontFamily: "sans-serif", }}>
+      <div style={{fontFamily: "sans-serif", fontSize: "20px"}}>
       <Container>
       <article>
         <h1>The Power of Pseudocoding: Why Every Developer Should Master It</h1>
