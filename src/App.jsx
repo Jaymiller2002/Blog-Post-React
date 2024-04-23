@@ -8,7 +8,7 @@ const Title = () => {
   )
 }
 
-function App() {
+function Sprint1() {
   return (
     <div 
       className="bg-primary h-100 p-5"
@@ -21,4 +21,4 @@ function App() {
 }
 
 
-export default App
+export default Sprint1
