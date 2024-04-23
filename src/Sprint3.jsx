@@ -7,7 +7,7 @@ function Sprint3() {
       <div></div>
       <Link to='/Card'>{'Contact Card ->'}</Link>
       <h1>Sprint 3</h1>
-      <div>
+      <div style={{fontFamily: "sans-serif", }}>
       <Container>
       <article>
         <h1>The Power of Pseudocoding: Why Every Developer Should Master It</h1>

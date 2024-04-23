@@ -7,7 +7,7 @@ function About() {
       <div></div>
       <Link to='/Sprint3'>{'Sprint 3 ->'}</Link>
       <h1>Sprint 2</h1>
-      <div>
+      <div style={{fontFamily: "sans-serif", }}>
       <Container>
       <h1 class="display-4">Jay's Blog:</h1>
 

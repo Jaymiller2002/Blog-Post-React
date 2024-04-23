@@ -6,7 +6,7 @@ function Card() {
     <div className="p-5">
       <Link to='/'>{'<- Back'}</Link>
       <h1>Contact Card</h1>
-      <div>
+      <div style={{fontFamily: "sans-serif", }}>
       <Container>
       <div>
         <div class="photo">

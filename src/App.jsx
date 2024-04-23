@@ -16,7 +16,7 @@ function App() {
     >
       <Link className="text-light" to='/about'>{'Sprint 2 ->'}</Link>
       <Title />
-      <div style={{}}>
+      <div style={{fontFamily: "sans-serif", }}>
       <Container>
       <h1>What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h1>
       <p>I find it extremely cool to see everything finally come together to make a fully functional page or website.</p>
