@@ -5,7 +5,7 @@ import './App.css'
 function Card() {
   return (
     <div className="p-5" style={{fontFamily: "sans-serif", display: "flex", justifyContent: "center", alignItems: "center", backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)"}}>
-      <Link className="text-light" to='/' style={{position: "absolute", alignSelf: "flex-start", marginTop: "-5px", marginLeft: "-1750px"}}>{'<- Back'}</Link>
+      <Link className="text-light" to='/' style={{position: "absolute", alignSelf: "flex-start", marginTop: "-5px", marginLeft: "-1000px"}}>{'<- Back'}</Link>
       <div style={{height: "calc(100vh - 100px"}}>
       <Container style={{marginBottom: "6000px" }}>
       <div style={{backgroundImage: "linear-gradient(to bottom right, #ac571f, #b3b02c)", height: "350px"}}>

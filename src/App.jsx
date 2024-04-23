@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 const Title = () => {
   return (
     <h1>
-      Blog Post
+      Home Page
     </h1>
   )
 }
@@ -11,12 +11,12 @@ const Title = () => {
 function App() {
   return (
     <div 
-      className="bg- h-100 p-5"
-      style={{ color: 'black', backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)" }}
+      className="bg- h-90 p-5"
+      style={{ color: 'black', backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)"}}
     >
       <Link className="text-light" to='/about'>{'Sprint 2 ->'}</Link>
       <Title />
-      <div style={{fontFamily: "sans-serif", }}>
+      <div style={{fontFamily: "sans-serif"}}>
       <Container>
       <h2>What are your thoughts about the roles HTML, CSS, and JavaScript play in the process of rendering content and providing user experience?</h2>
       <p>I find it extremely cool to see everything finally come together to make a fully functional page or website.</p>

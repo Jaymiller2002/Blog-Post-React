@@ -6,7 +6,7 @@ function About() {
       <Link className="text-light" to='/'>{'<- Back'}</Link>
       <div></div>
       <Link className="text-light" to='/Sprint3'>{'Sprint 3 ->'}</Link>
-      <h1>Sprint 2</h1>
+      <h1>About:</h1>
       <div style={{fontFamily: "sans-serif", fontSize: "20px"}}>
       <Container>
       <h1 class="display-4">Jay's Blog:</h1>
