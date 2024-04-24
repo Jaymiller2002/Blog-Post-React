@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import './App.css'
+import BasketballPicture from './assets/Basketball.png'
+import Destiny2Picture from './assets/Destiny2.jpeg'
 function About() {
   return (
     <div className="p-5" style={{backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)"}}>
@@ -12,6 +14,7 @@ function About() {
       <Container>
       <h1 class="display-4">Jay's Blog:</h1>
 
+        
         <h2>Was your first week what you expected? Why? Why not?</h2>
         <p>It was more than I expected to be honest mainly cause all I've been working with before was HTML, CSS and a little Javascript. Being introduced to git, github and gitpod has honestly been really confusing and getting them to connect/work together just hasn't been working for me.</p>
 
@@ -20,7 +23,8 @@ function About() {
 
         <h2>What is something about you that can only be learned by reading this blog?</h2>
         <p>My name is Jay Miller, I am 21 years old and live in Lexington, KY. Two things you'll learn about me from reading this blog post are that I love to play basketball and play video games.</p>
-
+        <img className="rounded-square" src={BasketballPicture}/>
+        <img className="rounded-square" src={Destiny2Picture}/>
         <h2>What is something you wish you could do but currently do not have the coding skills to accomplish?</h2>
         <p>I wish I could explain my coding process more and actually be able to go over my code and explain what I did rather than what I did on our last demo day.</p>
 
