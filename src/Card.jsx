@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import './App.css'
-
+import PictureOf from './assets/blogpic.jpg'
 function Card() {
   return (
     <div className="p-5" style={{
@@ -18,13 +18,13 @@ function Card() {
         backgroundImage: "linear-gradient(to bottom right, #ac571f, #b3b02c)",
         height: "350px"}}>
         <div className="photo">
-            <img className="rounded-circle" src="blogpic.jpg"/>
+            <img className="rounded-circle" src={PictureOf}/>
         </div>
         <ul style={{margin: "20px", marginTop: "65px"}}>
             <li><b>Jay Miller</b></li>
             <Link to="https://github.com/Jaymiller2002?tab=repositories"><li>Full-Stack Developer</li>click to see projects</Link>
         </ul>
-        <div style={{marginTop: "80px"}}>
+        <div class="container d-flex" style={{marginTop: "80px"}}>
             <Link to="https://github.com/" style={{
               fontSize: "2rem", 
               color: "purple"}}><i className="fa-brands fa-square-github"></i></Link>
