@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import './App.css'
 import PictureOf from './assets/blogpic.jpg'
+
+
 function Card() {
   return (
     <div className="p-5" style={{
