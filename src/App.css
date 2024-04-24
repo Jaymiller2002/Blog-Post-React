@@ -14,7 +14,7 @@ i {
 }
 
 i:hover {
-  color: rgb(9, 157, 160);
+  color: #4df;
 }
 
 a {
@@ -35,4 +35,18 @@ img {
 
 img:hover {
   transform: scale(1.2);
+}
+
+.container {
+  width: 100%;
+
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+      width: 95%; /* Adjust width for smaller screens */
+  }
+  .container {
+      margin-top: 10px; /* Adjust margin for smaller screens */
+  }
 }

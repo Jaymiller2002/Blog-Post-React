@@ -14,7 +14,7 @@ const Title = () => {
 function App() {
   return (
     <div 
-      className="bg- h-90 p-5"
+      className="bg- h-100 p-5"
       style={{ color: 'black', backgroundImage: "linear-gradient(to bottom, #a371ff, #4171c9)"}}
     >
       <Link className="text-light" to='/about'>{'Sprint 2 ->'}</Link>
